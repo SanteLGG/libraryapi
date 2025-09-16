@@ -1,4 +1,4 @@
-package io.github.cursodsousa.libraryapi;
+package io.github.santelgg.libraryapi;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
