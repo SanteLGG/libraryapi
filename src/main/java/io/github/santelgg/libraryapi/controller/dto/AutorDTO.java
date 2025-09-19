@@ -5,9 +5,10 @@ import io.github.santelgg.libraryapi.model.Autor;
 import java.time.LocalDate;
 
 public record AutorDTO( //DTO = Data Transfer Object
-    String nome,
-    LocalDate dataNascimento,
-    String nacionalidade){
+                        java.util.UUID id,
+                        String nome,
+                        LocalDate dataNascimento,
+                        String nacionalidade){
 
     public Autor mapearAutor(){
         Autor autor = new Autor();
